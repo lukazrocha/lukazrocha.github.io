@@ -44,8 +44,12 @@ header .logo {
     justify-content: flex-start;
     font-weight: 500;
 }
+.logo a {
+    font-size: 26px;
+    font-weight: 700;
+}
 
-header .logo:hover {
+.logo a:hover {
     color: var(--orange);
 }
 
@@ -298,51 +302,3 @@ i {
     font-size: 32px;
     font-weight: 500;
 }
-
-/* .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-.contato .h2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 20px;
-    padding-left: 40px;
-}
-
-.form {
-    background-color: var(--blue);
-    margin: 20px;
-    padding: 30px;
-    color: var(--orange);
-    border-radius: 10px;
-    border-left: 3px solid;
-    border-right: 3px solid;
-}
-
-.form form {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-.social {
-    background-color: var(--blue);
-    margin: 20px;
-    padding: 30px;
-    color: var(--orange);
-    border-radius: 10px;
-    border-left: 3px solid;
-    border-right: 3px solid;
-}
-
-.social ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-.social ul li {
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
