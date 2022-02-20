@@ -256,6 +256,7 @@ i {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 20px;
 }
 .servicos h2 {
     display: inline-block;
@@ -271,6 +272,7 @@ i {
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     margin: 0 auto;
+    padding-bottom: 10x;
 }
 
 .sites, .sistemas, .responsivos {
@@ -279,12 +281,22 @@ i {
     background-color: var(--gray-dark);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
     padding-left: 25px;
+    margin-right: 5px solid var(--orange);
 }
 
-.grid {
+.servicos i {
+    font-size: 30px;
+    color: var(--orange);
+}
+
+.servicos .title {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+/* .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -330,4 +342,4 @@ i {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
