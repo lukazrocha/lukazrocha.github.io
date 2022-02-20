@@ -253,23 +253,25 @@ i {
 }
 
 .servicos {
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 20px;
 }
 .servicos h2 {
-    display: inline-block;
+  
     text-align: center;
     font-size: 32px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .servicos .container {
     width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    align-self: center;
     justify-items: center;
     margin: 0 auto;
     padding-bottom: 10x;
@@ -281,13 +283,14 @@ i {
     background-color: var(--gray-dark);
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: flex-start;
     padding-left: 25px;
-    margin-right: 5px solid var(--orange);
+    border-bottom: 3px solid var(--orange);
 }
 
 .servicos i {
-    font-size: 30px;
+    font-size: 50px;
     color: var(--orange);
 }
 
