@@ -71,7 +71,6 @@ a {
 .banner {
 	margin: 0 auto;
 	height: 23rem;
-	width: 100%;
 	max-width: 80%;
 	display: flex;
 	justify-content: space-around;
@@ -129,7 +128,7 @@ i {
 }
 
 .avatar {
-	width: 200px;
+	width: 18rem;
 }
 
 .avatar img {
@@ -138,7 +137,7 @@ i {
 	width: 100%;
 }
 .sobre-mim {
-	height: 23rem;
+	height: 28rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -162,7 +161,7 @@ i {
 .sobre p {
 	font-size: 18px;
 	font-weight: 400;
-	text-align: center;
+	text-align: justify;
 }
 
 .social-main {
